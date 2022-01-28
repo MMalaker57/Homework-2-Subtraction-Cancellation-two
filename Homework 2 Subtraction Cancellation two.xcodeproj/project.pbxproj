@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524263B327A489640014C698 /* Homework_2_Subtraction_Cancellation_twoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524263B227A489640014C698 /* Homework_2_Subtraction_Cancellation_twoApp.swift */; };
+		524263B527A489640014C698 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524263B427A489640014C698 /* ContentView.swift */; };
+		524263B727A489660014C698 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524263B627A489660014C698 /* Assets.xcassets */; };
+		524263BA27A489660014C698 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524263B927A489660014C698 /* Preview Assets.xcassets */; };
+		524263C527A489660014C698 /* Homework_2_Subtraction_Cancellation_twoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524263C427A489660014C698 /* Homework_2_Subtraction_Cancellation_twoTests.swift */; };
+		524263CF27A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524263CE27A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITests.swift */; };
+		524263D127A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524263D027A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		524263C127A489660014C698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524263A727A489640014C698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524263AE27A489640014C698;
+			remoteInfo = "Homework 2 Subtraction Cancellation two";
+		};
+		524263CB27A489660014C698 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524263A727A489640014C698 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524263AE27A489640014C698;
+			remoteInfo = "Homework 2 Subtraction Cancellation two";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		524263AF27A489640014C698 /* Homework 2 Subtraction Cancellation two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 2 Subtraction Cancellation two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524263B227A489640014C698 /* Homework_2_Subtraction_Cancellation_twoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_2_Subtraction_Cancellation_twoApp.swift; sourceTree = "<group>"; };
+		524263B427A489640014C698 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		524263B627A489660014C698 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524263B927A489660014C698 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		524263BB27A489660014C698 /* Homework_2_Subtraction_Cancellation_two.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Homework_2_Subtraction_Cancellation_two.entitlements; sourceTree = "<group>"; };
+		524263C027A489660014C698 /* Homework 2 Subtraction Cancellation twoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 2 Subtraction Cancellation twoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524263C427A489660014C698 /* Homework_2_Subtraction_Cancellation_twoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_2_Subtraction_Cancellation_twoTests.swift; sourceTree = "<group>"; };
+		524263CA27A489660014C698 /* Homework 2 Subtraction Cancellation twoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 2 Subtraction Cancellation twoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		524263CE27A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_2_Subtraction_Cancellation_twoUITests.swift; sourceTree = "<group>"; };
+		524263D027A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_2_Subtraction_Cancellation_twoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524263AC27A489640014C698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524263BD27A489660014C698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524263C727A489660014C698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524263A627A489640014C698 = {
+			isa = PBXGroup;
+			children = (
+				524263B127A489640014C698 /* Homework 2 Subtraction Cancellation two */,
+				524263C327A489660014C698 /* Homework 2 Subtraction Cancellation twoTests */,
+				524263CD27A489660014C698 /* Homework 2 Subtraction Cancellation twoUITests */,
+				524263B027A489640014C698 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524263B027A489640014C698 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524263AF27A489640014C698 /* Homework 2 Subtraction Cancellation two.app */,
+				524263C027A489660014C698 /* Homework 2 Subtraction Cancellation twoTests.xctest */,
+				524263CA27A489660014C698 /* Homework 2 Subtraction Cancellation twoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524263B127A489640014C698 /* Homework 2 Subtraction Cancellation two */ = {
+			isa = PBXGroup;
+			children = (
+				524263B227A489640014C698 /* Homework_2_Subtraction_Cancellation_twoApp.swift */,
+				524263B427A489640014C698 /* ContentView.swift */,
+				524263B627A489660014C698 /* Assets.xcassets */,
+				524263BB27A489660014C698 /* Homework_2_Subtraction_Cancellation_two.entitlements */,
+				524263B827A489660014C698 /* Preview Content */,
+			);
+			path = "Homework 2 Subtraction Cancellation two";
+			sourceTree = "<group>";
+		};
+		524263B827A489660014C698 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				524263B927A489660014C698 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		524263C327A489660014C698 /* Homework 2 Subtraction Cancellation twoTests */ = {
+			isa = PBXGroup;
+			children = (
+				524263C427A489660014C698 /* Homework_2_Subtraction_Cancellation_twoTests.swift */,
+			);
+			path = "Homework 2 Subtraction Cancellation twoTests";
+			sourceTree = "<group>";
+		};
+		524263CD27A489660014C698 /* Homework 2 Subtraction Cancellation twoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				524263CE27A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITests.swift */,
+				524263D027A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITestsLaunchTests.swift */,
+			);
+			path = "Homework 2 Subtraction Cancellation twoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524263AE27A489640014C698 /* Homework 2 Subtraction Cancellation two */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524263D427A489660014C698 /* Build configuration list for PBXNativeTarget "Homework 2 Subtraction Cancellation two" */;
+			buildPhases = (
+				524263AB27A489640014C698 /* Sources */,
+				524263AC27A489640014C698 /* Frameworks */,
+				524263AD27A489640014C698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homework 2 Subtraction Cancellation two";
+			productName = "Homework 2 Subtraction Cancellation two";
+			productReference = 524263AF27A489640014C698 /* Homework 2 Subtraction Cancellation two.app */;
+			productType = "com.apple.product-type.application";
+		};
+		524263BF27A489660014C698 /* Homework 2 Subtraction Cancellation twoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524263D727A489660014C698 /* Build configuration list for PBXNativeTarget "Homework 2 Subtraction Cancellation twoTests" */;
+			buildPhases = (
+				524263BC27A489660014C698 /* Sources */,
+				524263BD27A489660014C698 /* Frameworks */,
+				524263BE27A489660014C698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524263C227A489660014C698 /* PBXTargetDependency */,
+			);
+			name = "Homework 2 Subtraction Cancellation twoTests";
+			productName = "Homework 2 Subtraction Cancellation twoTests";
+			productReference = 524263C027A489660014C698 /* Homework 2 Subtraction Cancellation twoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		524263C927A489660014C698 /* Homework 2 Subtraction Cancellation twoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524263DA27A489660014C698 /* Build configuration list for PBXNativeTarget "Homework 2 Subtraction Cancellation twoUITests" */;
+			buildPhases = (
+				524263C627A489660014C698 /* Sources */,
+				524263C727A489660014C698 /* Frameworks */,
+				524263C827A489660014C698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524263CC27A489660014C698 /* PBXTargetDependency */,
+			);
+			name = "Homework 2 Subtraction Cancellation twoUITests";
+			productName = "Homework 2 Subtraction Cancellation twoUITests";
+			productReference = 524263CA27A489660014C698 /* Homework 2 Subtraction Cancellation twoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524263A727A489640014C698 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					524263AE27A489640014C698 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					524263BF27A489660014C698 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 524263AE27A489640014C698;
+					};
+					524263C927A489660014C698 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 524263AE27A489640014C698;
+					};
+				};
+			};
+			buildConfigurationList = 524263AA27A489640014C698 /* Build configuration list for PBXProject "Homework 2 Subtraction Cancellation two" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524263A627A489640014C698;
+			productRefGroup = 524263B027A489640014C698 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524263AE27A489640014C698 /* Homework 2 Subtraction Cancellation two */,
+				524263BF27A489660014C698 /* Homework 2 Subtraction Cancellation twoTests */,
+				524263C927A489660014C698 /* Homework 2 Subtraction Cancellation twoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524263AD27A489640014C698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524263BA27A489660014C698 /* Preview Assets.xcassets in Resources */,
+				524263B727A489660014C698 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524263BE27A489660014C698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524263C827A489660014C698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524263AB27A489640014C698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524263B527A489640014C698 /* ContentView.swift in Sources */,
+				524263B327A489640014C698 /* Homework_2_Subtraction_Cancellation_twoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524263BC27A489660014C698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524263C527A489660014C698 /* Homework_2_Subtraction_Cancellation_twoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524263C627A489660014C698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524263D127A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITestsLaunchTests.swift in Sources */,
+				524263CF27A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		524263C227A489660014C698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524263AE27A489640014C698 /* Homework 2 Subtraction Cancellation two */;
+			targetProxy = 524263C127A489660014C698 /* PBXContainerItemProxy */;
+		};
+		524263CC27A489660014C698 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524263AE27A489640014C698 /* Homework 2 Subtraction Cancellation two */;
+			targetProxy = 524263CB27A489660014C698 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		524263D227A489660014C698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		524263D327A489660014C698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		524263D527A489660014C698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Homework 2 Subtraction Cancellation two/Homework_2_Subtraction_Cancellation_two.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Homework 2 Subtraction Cancellation two/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Homework-2-Subtraction-Cancellation-two";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		524263D627A489660014C698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Homework 2 Subtraction Cancellation two/Homework_2_Subtraction_Cancellation_two.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Homework 2 Subtraction Cancellation two/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Homework-2-Subtraction-Cancellation-two";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		524263D827A489660014C698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Homework-2-Subtraction-Cancellation-twoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework 2 Subtraction Cancellation two.app/Contents/MacOS/Homework 2 Subtraction Cancellation two";
+			};
+			name = Debug;
+		};
+		524263D927A489660014C698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Homework-2-Subtraction-Cancellation-twoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework 2 Subtraction Cancellation two.app/Contents/MacOS/Homework 2 Subtraction Cancellation two";
+			};
+			name = Release;
+		};
+		524263DB27A489660014C698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Homework-2-Subtraction-Cancellation-twoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Homework 2 Subtraction Cancellation two";
+			};
+			name = Debug;
+		};
+		524263DC27A489660014C698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IIT.Homework-2-Subtraction-Cancellation-twoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Homework 2 Subtraction Cancellation two";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524263AA27A489640014C698 /* Build configuration list for PBXProject "Homework 2 Subtraction Cancellation two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524263D227A489660014C698 /* Debug */,
+				524263D327A489660014C698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524263D427A489660014C698 /* Build configuration list for PBXNativeTarget "Homework 2 Subtraction Cancellation two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524263D527A489660014C698 /* Debug */,
+				524263D627A489660014C698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524263D727A489660014C698 /* Build configuration list for PBXNativeTarget "Homework 2 Subtraction Cancellation twoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524263D827A489660014C698 /* Debug */,
+				524263D927A489660014C698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524263DA27A489660014C698 /* Build configuration list for PBXNativeTarget "Homework 2 Subtraction Cancellation twoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524263DB27A489660014C698 /* Debug */,
+				524263DC27A489660014C698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524263A727A489640014C698 /* Project object */;
+}
