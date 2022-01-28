@@ -14,6 +14,7 @@
 		524263C527A489660014C698 /* Homework_2_Subtraction_Cancellation_twoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524263C427A489660014C698 /* Homework_2_Subtraction_Cancellation_twoTests.swift */; };
 		524263CF27A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524263CE27A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITests.swift */; };
 		524263D127A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524263D027A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITestsLaunchTests.swift */; };
+		524263DE27A489800014C698 /* Cancellation Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524263DD27A489800014C698 /* Cancellation Series.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		524263CA27A489660014C698 /* Homework 2 Subtraction Cancellation twoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 2 Subtraction Cancellation twoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		524263CE27A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_2_Subtraction_Cancellation_twoUITests.swift; sourceTree = "<group>"; };
 		524263D027A489660014C698 /* Homework_2_Subtraction_Cancellation_twoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_2_Subtraction_Cancellation_twoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		524263DD27A489800014C698 /* Cancellation Series.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cancellation Series.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				524263B227A489640014C698 /* Homework_2_Subtraction_Cancellation_twoApp.swift */,
 				524263B427A489640014C698 /* ContentView.swift */,
+				524263DD27A489800014C698 /* Cancellation Series.swift */,
 				524263B627A489660014C698 /* Assets.xcassets */,
 				524263BB27A489660014C698 /* Homework_2_Subtraction_Cancellation_two.entitlements */,
 				524263B827A489660014C698 /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				524263B527A489640014C698 /* ContentView.swift in Sources */,
 				524263B327A489640014C698 /* Homework_2_Subtraction_Cancellation_twoApp.swift in Sources */,
+				524263DE27A489800014C698 /* Cancellation Series.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
