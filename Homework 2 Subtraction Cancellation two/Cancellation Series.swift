@@ -12,8 +12,14 @@ import SwiftUI
 class CancellationSeries: NSObject, ObservableObject{
 
     
-    
-    
+
+
+    //This function calculates the series;
+    //
+    //    (1)     __ 2N       n
+    //   S    =  \         -----
+    //    N      /__ n = 1 n + 1
+
     func series1(N: Int) -> Double{
         var sum = 0.0
         for n in stride(from: 1, through: 2*N, by: 1){
@@ -23,7 +29,10 @@ class CancellationSeries: NSObject, ObservableObject{
         }
         return(sum)
     }
-    
+    //This function calculates the series;
+    //    (2)        __ N     2n - 1    __ N          1
+    //   S    =   - \         ------ + \        ----------
+    //    N         /__ n = 1   2n     /__ n = 1 2n(2n + 1)
     func series2(N: Int) -> Double{
         var sum1 = 0.0
         var sum2 = 0.0
@@ -38,7 +47,11 @@ class CancellationSeries: NSObject, ObservableObject{
         }
         return((-1*sum1)+sum2)
     }
-    
+    //This function calculates the series:
+    //    (3)        __ N          1
+    //   S    =   - \         ----------
+    //    N         /__ n = 1 2n(2n + 1)
+
     func series3(N: Int) -> Double{
         var sum = 0.0
         for n in stride(from: 1, through: N, by: 1){

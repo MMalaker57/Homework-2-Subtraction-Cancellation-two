@@ -70,6 +70,8 @@ struct ContentView: View {
                 .padding()
         }
     }
+    
+    //Swift demanded a synchronous function inside the button, so this is synchronous
     func calculateAll(N: Int){
         series1String = String(series.series1(N: N))
         series2String = String(series.series2(N: N))
@@ -79,9 +81,45 @@ struct ContentView: View {
         N = Int(NString1) ?? 1
         return N
     }
-}
-    
 
+    
+    //This part requires the calculation of a large number of data points
+    //Each data point is three series and a base-10 logarithm, but each point
+    //is independent of the others, so this is perfect for threading
+    //I use a taskgroup here because that's what I was able to figure out and the fact that this method
+    //can be uesd in all sorts of cases, so it's good to get used to
+    func calculateErrorPlot(N: Int) async->Array<Double>{
+        //initialize taskgroup
+        let errorArray = await withTaskGroup(of: (Int, Double).self, returning: [Double].self, body: {taskGroup in
+            //Initialize each task in desired plot range
+            for i in stride(from: 1, through: N, by: 1){
+                taskGroup.addTask {
+                    //Create return value. This is a complex computation, hence the threading
+                    let value = await log10((series.series1(N: i)-series.series2(N: i))/series.series3(N:i))
+                    
+                    return (i,value)
+                }
+            }
+            //Take results as they come in and assign them to their proper place
+            //We do not know the order these tasks will finish in, so we use a tuple to assign each result its value
+            var interimResults = [0.0]
+            //reordering results as they come in
+            for await result in taskGroup{
+                interimResults[result.0]=result.1
+            }
+            
+            return interimResults
+        })
+        
+        return(errorArray)
+        }
+}
+//The next major task is to add the plotting component, but Dr. Terry has not sent us a working template
+//
+//
+//
+//
+//
 
 
 struct ContentView_Previews: PreviewProvider {
